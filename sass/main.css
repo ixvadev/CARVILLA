@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
