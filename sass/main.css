@@ -4,17 +4,68 @@
   box-sizing: border-box;
 }
 
-nav {
+.hero {
+  background-image: url(../images/welcome-hero/welcome-banner.jpg);
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+}
+.hero nav {
+  padding-top: 45px;
+  padding-bottom: 45px;
   display: flex;
   justify-content: space-around;
 }
-nav a {
+.hero nav .logo a {
+  font-size: 24px;
+  font-family: Rufina, sans-serif;
+}
+.hero nav .home__blue {
+  color: #4e4ffa;
+}
+.hero nav a {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: Poppins, sans-serif;
   text-decoration: none;
   color: #fff;
 }
-nav li {
+.hero nav li {
   text-decoration: none;
   display: flex;
   justify-content: space-around;
   gap: 30px;
+}
+.hero header {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.hero header .header h1 {
+  font-size: 45px;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+.hero header .header p {
+  font-size: 20px;
+  text-transform: initial;
+  color: #fff;
+  font-weight: 500;
+  max-width: 735px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero header .header button {
+  display: inline-block;
+  width: 230px;
+  height: 60px;
+  background: #4e4ffa;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 55px;
+  border: none;
+  margin-left: 430px;
 }/*# sourceMappingURL=main.css.map */
